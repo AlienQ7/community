@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+h1 {
+  color: #00698f;
+  background-color: orange;
+  text-align: center;
+}
+
+h2, h3 {
+  color: #00698f;
+}
+
+pre {
+  background-color: #f7f7f7;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+a {
+  text-decoration: none;
+  color: #00698f;
+}
+
+a:hover {
+  color: #003d5d;
+}
+
+@media (max-width: 767px) {
+  body {
+    flex-direction: column;
+  }
+  body {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    padding: 10px;
+  }
+}
